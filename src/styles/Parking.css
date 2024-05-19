@@ -1,0 +1,59 @@
+.parking-container{
+    height: 100svh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px;
+    overflow-y: auto;
+}
+
+.bg{
+    width: 90vw;
+}
+
+.parking-container {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+/* .parking-container img:first-child {
+    width: 100%;
+    height: auto;aqui no va nadota amor,.....
+} */
+
+.parking-container .car {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+}
+
+.btn-finish{
+    z-index: 3;
+}
+
+.information{
+    /* border: 1px solid var(--clr-secondary-gray); */
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+.back-container{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-yellow);
+    font-weight: 800;
+}

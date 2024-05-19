@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --clr-yellow : #FBDB26;
+  --clr-primary-gray : #474747;
+  --clr-secondary-gray : #c8c8c8;
+}
+
+.btn {
+  background-color: var(--clr-yellow);
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  width: 90%;
+  font-weight: 800;
+  color: var(--clr-primary-gray);
+}
+
